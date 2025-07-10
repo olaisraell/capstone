@@ -20,3 +20,4 @@
         - name: Maven package
           run: mvn -B clean package -DskipTests
         - name: Maven Verify
+          run: mvn -B clean verify
